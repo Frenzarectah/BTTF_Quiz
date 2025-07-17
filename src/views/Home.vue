@@ -19,7 +19,7 @@ watch(search, () =>{
     <input  v-model.trim="search" type="text" placeholder="Search...">
     </header>
   <div class="options-container">
-    <Card v-for="quiz in quizzes" :key="quiz.id" :quiz="quiz"/>
+  <Card v-for="quiz in quizzes" :key="quiz.id" :quiz="quiz"/> -->
   </div>
   </div>
 </template>

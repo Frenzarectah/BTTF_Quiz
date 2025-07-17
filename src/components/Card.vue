@@ -3,11 +3,11 @@ import { defineProps } from 'vue';
 import { useRouter } from 'vue-router';
 
 const { quiz } = defineProps(['quiz'])
-
+console.log(quiz);
 const router = useRouter();
 </script>
 <template>
-    <div class="card" @click="router.push(`/${quiz.name}`)">
+    <div class="card" @click="router.push(`/quiz/${quiz.id}`)">
         <img :src="quiz.img" alt="math">
         <div class="card-text">
             <h2>{{quiz.name}}</h2>

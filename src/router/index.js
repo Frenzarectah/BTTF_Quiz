@@ -1,8 +1,6 @@
 import { createWebHistory, createRouter } from "vue-router";
 
-import Math from '@/views/MathView.vue'
-import Bio from '@/views/BioView.vue'
-import Chem from '@/views/ChemView.vue'
+import Quiz from "@/views/Quiz.vue";
 import Home from "@/views/Home.vue";
 
 const router = createRouter({
@@ -13,18 +11,9 @@ const router = createRouter({
             component: Home
         },
         {
-            path:'/Math',
-            component: Math  
+            path:'/quiz/:id',
+            component: Quiz,
         },
-        
-        {
-            path:'/Chemistry',
-            component: Chem  
-        },
-        {
-            path:'/Biology',
-            component: Bio
-        }
     ]
 })
 
