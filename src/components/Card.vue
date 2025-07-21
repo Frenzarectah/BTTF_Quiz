@@ -31,7 +31,7 @@ const router = useRouter();
   }
   .card img{
     width:100%;
-    height:200px;
+    height:250px;
   }
   .card .card-text{
     padding: 0 5px;

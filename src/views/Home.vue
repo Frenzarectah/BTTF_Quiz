@@ -1,6 +1,5 @@
 <script setup>
 import questions from '../data/data.json';
-import { RouterLink } from 'vue-router';
 import Card from '../components/Card.vue';
 import { ref,watch } from "vue"
 
@@ -13,26 +12,35 @@ watch(search, () =>{
 </script>
 
 <template>
-<div class="container">
-    <header>
-      <h1>Quizzy</h1>
-    <input  v-model.trim="search" type="text" placeholder="Search...">
-    </header>
-  <div class="options-container">
-  <Card v-for="quiz in quizzes" :key="quiz.id" :quiz="quiz"/> -->
-  </div>
-  </div>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Back to the future trilogy quiz time</h1>
+        <input  v-model.trim="search" type="text" placeholder="Search...">
+      </header>
+      <div class="options-container">
+        <Card v-for="quiz in quizzes" :key="quiz.id" :quiz="quiz"/>
+      </div>
+    </div>
+  </body>
 </template>
 <style scoped>
+  body{
+    background-color: #fffaff;
+  }
   .container{
     max-width: 1000px;
     margin: 0 auto;
-    
+    font-family: "Lilita One", sans-serif;
+    font-weight:100;
+    font-style: light;
+    background-color: #fffaff;
   }
   header{
     margin-bottom: 10px;
     margin-top: 30px;
     display: flex;
+    justify-content: space-around;
     align-items: center;
   }
   header h1{
@@ -51,5 +59,4 @@ watch(search, () =>{
     justify-content: center;
     margin-top: 40px;
   }
-
 </style>

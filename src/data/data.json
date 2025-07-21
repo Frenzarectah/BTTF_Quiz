@@ -1,293 +1,325 @@
 [
     {
-        "id": 1,
-        "img": "https://marvel-b1-cdn.bc0a.com/f00000000026007/resilienteducator.com/wp-content/uploads/2012/11/AdobeStock_60467600_cup.jpg",
-        "name": "Math",
-        "questions": [
-            {
-                "id": 1,
-                "text": "8 ÷ 2(2 + 2)",
-                "options": [
-                    {
-                        "id": 1,
-                        "label": "A",
-                        "text": "16",
-                        "isCorrect": true
-                    },
-                    {
-                        "id": 2,
-                        "label": "B",
-                        "text": "1",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 3,
-                        "label": "C",
-                        "text": "8",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 4,
-                        "label": "D",
-                        "text": "24",
-                        "isCorrect": false
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "text": "sqrt(64) * 9",
-                "options": [
-                    {
-                        "id": 1,
-                        "label": "A",
-                        "text": "4",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 2,
-                        "label": "B",
-                        "text": "81",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 3,
-                        "label": "C",
-                        "text": "72",
-                        "isCorrect": true
-                    },
-                    {
-                        "id": 4,
-                        "label": "D",
-                        "text": "144",
-                        "isCorrect": false
-                    }
-                ]
-            },
-            {
-                "id": 3,
-                "text": "3 + 3 x 3 ÷ 3 - 3",
-                "options": [
-                    {
-                        "id": 1,
-                        "label": "A",
-                        "text": "3",
-                        "isCorrect": true
-                    },
-                    {
-                        "id": 2,
-                        "label": "B",
-                        "text": "1",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 3,
-                        "label": "C",
-                        "text": "9",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 4,
-                        "label": "D",
-                        "text": "16",
-                        "isCorrect": false
-                    }
-                ]
-            }
-        ]
+  "id": 1,
+  "img": "https://upload.wikimedia.org/wikipedia/en/d/d2/Back_to_the_Future.jpg",
+  "name": "Back to the Future I",
+  "questions": [
+    {
+      "id": 1,
+      "text": "What speed must the DeLorean reach to time travel?",
+      "options": [
+        { "id": 1, "label": "A", "text": "88 mph", "isCorrect": true },
+        { "id": 2, "label": "B", "text": "77 mph", "isCorrect": false },
+        { "id": 3, "label": "C", "text": "99 mph", "isCorrect": false },
+        { "id": 4, "label": "D", "text": "100 mph", "isCorrect": false }
+      ]
     },
     {
-        "id": 2,
-        "img": "https://blogs.biomedcentral.com/on-biology/wp-content/uploads/sites/5/2017/12/DNA.png",
-        "name": "Biology",
-        "questions": [
-            {
-                "id": 1,
-                "text": "The Kreb Cycles occurs in the",
-                "options": [
-                    {
-                        "id": 1,
-                        "label": "A",
-                        "text": "Mitochondria",
-                        "isCorrect": true
-                    },
-                    {
-                        "id": 2,
-                        "label": "B",
-                        "text": "Nucleus",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 3,
-                        "label": "C",
-                        "text": "Rough ER",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 4,
-                        "label": "D",
-                        "text": "Cystol",
-                        "isCorrect": false
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "text": "How many oxygen molecules can hemoglobin hold",
-                "options": [
-                    {
-                        "id": 1,
-                        "label": "A",
-                        "text": "1",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 2,
-                        "label": "B",
-                        "text": "2",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 3,
-                        "label": "C",
-                        "text": "3",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 4,
-                        "label": "D",
-                        "text": "4",
-                        "isCorrect": true
-                    }
-                ]
-            },
-            {
-                "id": 3,
-                "text": "The cones see ___ while the rods see ___",
-                "options": [
-                    {
-                        "id": 1,
-                        "label": "A",
-                        "text": "black and white; color",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 2,
-                        "label": "B",
-                        "text": "color; black and white",
-                        "isCorrect": true
-                    },
-                    {
-                        "id": 3,
-                        "label": "C",
-                        "text": "3D objects; 2D shapes",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 4,
-                        "label": "D",
-                        "text": "2D shapes; 3D objects",
-                        "isCorrect": false
-                    }
-                ]
-            }
-        ]
+      "id": 2,
+      "text": "Who is Marty McFly's best friend?",
+      "options": [
+        { "id": 1, "label": "A", "text": "George McFly", "isCorrect": false },
+        { "id": 2, "label": "B", "text": "Biff Tannen", "isCorrect": false },
+        { "id": 3, "label": "C", "text": "Doc Brown", "isCorrect": true },
+        { "id": 4, "label": "D", "text": "Einstein", "isCorrect": false }
+      ]
     },
     {
-        "id": 3,
-        "img": "http://jobs.newscientist.com/getasset/c40a5488-11be-43b0-843f-a2e6ef9f0612/",
-        "name": "Chemistry",
-        "questions": [
-            {
-                "id": 1,
-                "text": "What is the composition of table salt",
-                "options": [
-                    {
-                        "id": 1,
-                        "label": "A",
-                        "text": "NaCl",
-                        "isCorrect": true
-                    },
-                    {
-                        "id": 2,
-                        "label": "B",
-                        "text": "K2",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 3,
-                        "label": "C",
-                        "text": "NaCl2C4H7",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 4,
-                        "label": "D",
-                        "text": "CH4",
-                        "isCorrect": false
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "text": "What is Potassium's chemical symbol",
-                "options": [
-                    {
-                        "id": 1,
-                        "label": "A",
-                        "text": "P",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 2,
-                        "label": "B",
-                        "text": "Pt",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 3,
-                        "label": "C",
-                        "text": "Pts",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 4,
-                        "label": "D",
-                        "text": "K",
-                        "isCorrect": true
-                    }
-                ]
-            },
-            {
-                "id": 3,
-                "text": "Which is not organinc",
-                "options": [
-                    {
-                        "id": 1,
-                        "label": "A",
-                        "text": "CH4",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 2,
-                        "label": "B",
-                        "text": "NaCl",
-                        "isCorrect": true
-                    },
-                    {
-                        "id": 3,
-                        "label": "C",
-                        "text": "C2H6",
-                        "isCorrect": false
-                    },
-                    {
-                        "id": 4,
-                        "label": "D",
-                        "text": "C3H8",
-                        "isCorrect": false
-                    }
-                ]
-            }
-        ]
+      "id": 3,
+      "text": "What year does Marty travel back to?",
+      "options": [
+        { "id": 1, "label": "A", "text": "1965", "isCorrect": false },
+        { "id": 2, "label": "B", "text": "1955", "isCorrect": true },
+        { "id": 3, "label": "C", "text": "1985", "isCorrect": false },
+        { "id": 4, "label": "D", "text": "1995", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "What is the name of Marty’s band?",
+      "options": [
+        { "id": 1, "label": "A", "text": "The Pinheads", "isCorrect": true },
+        { "id": 2, "label": "B", "text": "The Time Travelers", "isCorrect": false },
+        { "id": 3, "label": "C", "text": "Flux Band", "isCorrect": false },
+        { "id": 4, "label": "D", "text": "Twin Pines", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "What mall did Marty meet Doc at?",
+      "options": [
+        { "id": 1, "label": "A", "text": "Hill Valley Mall", "isCorrect": false },
+        { "id": 2, "label": "B", "text": "Lone Pine Mall", "isCorrect": false },
+        { "id": 3, "label": "C", "text": "Twin Pines Mall", "isCorrect": true },
+        { "id": 4, "label": "D", "text": "Time Plaza", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "What does Biff frequently call George?",
+      "options": [
+        { "id": 1, "label": "A", "text": "Loser", "isCorrect": false },
+        { "id": 2, "label": "B", "text": "McFly", "isCorrect": false },
+        { "id": 3, "label": "C", "text": "Wimp", "isCorrect": true },
+        { "id": 4, "label": "D", "text": "Boy", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "What song does Marty play at the dance?",
+      "options": [
+        { "id": 1, "label": "A", "text": "Back in Time", "isCorrect": false },
+        { "id": 2, "label": "B", "text": "Earth Angel", "isCorrect": false },
+        { "id": 3, "label": "C", "text": "Johnny B. Goode", "isCorrect": true },
+        { "id": 4, "label": "D", "text": "Power of Love", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "What is the name of Doc’s dog?",
+      "options": [
+        { "id": 1, "label": "A", "text": "Pluto", "isCorrect": false },
+        { "id": 2, "label": "B", "text": "Einstein", "isCorrect": true },
+        { "id": 3, "label": "C", "text": "Newton", "isCorrect": false },
+        { "id": 4, "label": "D", "text": "Galileo", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "What does Doc use to power the DeLorean?",
+      "options": [
+        { "id": 1, "label": "A", "text": "Solar energy", "isCorrect": false },
+        { "id": 2, "label": "B", "text": "Gasoline", "isCorrect": false },
+        { "id": 3, "label": "C", "text": "Plutonium", "isCorrect": true },
+        { "id": 4, "label": "D", "text": "Electricity", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "What does Marty nearly erase from existence?",
+      "options": [
+        { "id": 1, "label": "A", "text": "The DeLorean", "isCorrect": false },
+        { "id": 2, "label": "B", "text": "Doc Brown", "isCorrect": false },
+        { "id": 3, "label": "C", "text": "His parents' meeting", "isCorrect": true },
+        { "id": 4, "label": "D", "text": "His band", "isCorrect": false }
+      ]
     }
+  ]
+}
+,
+   {
+  "id": 2,
+  "img": "https://upload.wikimedia.org/wikipedia/en/c/c2/Back_to_the_Future_Part_II.jpg",
+  "name": "Back to the Future II",
+  "questions": [
+    {
+      "id": 1,
+      "text": "In what year do Doc and Marty travel to first in Part II?",
+      "options": [
+        { "id": 1, "label": "A", "text": "2000", "isCorrect": false },
+        { "id": 2, "label": "B", "text": "2015", "isCorrect": true },
+        { "id": 3, "label": "C", "text": "2025", "isCorrect": false },
+        { "id": 4, "label": "D", "text": "1995", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "What iconic future item does Marty buy?",
+      "options": [
+        { "id": 1, "label": "A", "text": "Time crystal", "isCorrect": false },
+        { "id": 2, "label": "B", "text": "Hoverboard", "isCorrect": true },
+        { "id": 3, "label": "C", "text": "Laser gun", "isCorrect": false },
+        { "id": 4, "label": "D", "text": "3D glasses", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "What sports item does old Biff steal?",
+      "options": [
+        { "id": 1, "label": "A", "text": "Baseball glove", "isCorrect": false },
+        { "id": 2, "label": "B", "text": "Football", "isCorrect": false },
+        { "id": 3, "label": "C", "text": "Sports Almanac", "isCorrect": true },
+        { "id": 4, "label": "D", "text": "Tennis ball", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Why does Biff give his younger self the almanac?",
+      "options": [
+        { "id": 1, "label": "A", "text": "To cheat on tests", "isCorrect": false },
+        { "id": 2, "label": "B", "text": "To get rich betting", "isCorrect": true },
+        { "id": 3, "label": "C", "text": "To impress Marty", "isCorrect": false },
+        { "id": 4, "label": "D", "text": "To stop Doc", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "What does Marty's future son get in trouble for?",
+      "options": [
+        { "id": 1, "label": "A", "text": "Hacking", "isCorrect": false },
+        { "id": 2, "label": "B", "text": "Street racing", "isCorrect": false },
+        { "id": 3, "label": "C", "text": "Robbery", "isCorrect": false },
+        { "id": 4, "label": "D", "text": "Participating in a robbery", "isCorrect": true }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "What is the name of Biff's corrupt 1985 company?",
+      "options": [
+        { "id": 1, "label": "A", "text": "TannenCorp", "isCorrect": false },
+        { "id": 2, "label": "B", "text": "BiffCo", "isCorrect": true },
+        { "id": 3, "label": "C", "text": "BiffWorks", "isCorrect": false },
+        { "id": 4, "label": "D", "text": "Tannen Inc.", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Where do Marty and Doc go to recover the almanac?",
+      "options": [
+        { "id": 1, "label": "A", "text": "2015", "isCorrect": false },
+        { "id": 2, "label": "B", "text": "1955", "isCorrect": true },
+        { "id": 3, "label": "C", "text": "1885", "isCorrect": false },
+        { "id": 4, "label": "D", "text": "1985", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "What message does Doc leave Marty at the end?",
+      "options": [
+        { "id": 1, "label": "A", "text": "I'm in 1885!", "isCorrect": true },
+        { "id": 2, "label": "B", "text": "I'm in 1999!", "isCorrect": false },
+        { "id": 3, "label": "C", "text": "Go back to 1985!", "isCorrect": false },
+        { "id": 4, "label": "D", "text": "Don't trust Biff!", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Who helps Marty sneak into Biff's car in 1955?",
+      "options": [
+        { "id": 1, "label": "A", "text": "Strickland", "isCorrect": false },
+        { "id": 2, "label": "B", "text": "Doc", "isCorrect": true },
+        { "id": 3, "label": "C", "text": "Jennifer", "isCorrect": false },
+        { "id": 4, "label": "D", "text": "His dad", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "How does Doc get stuck in 1885?",
+      "options": [
+        { "id": 1, "label": "A", "text": "Lightning hits the DeLorean", "isCorrect": true },
+        { "id": 2, "label": "B", "text": "He gets arrested", "isCorrect": false },
+        { "id": 3, "label": "C", "text": "Marty leaves him there", "isCorrect": false },
+        { "id": 4, "label": "D", "text": "Biff sabotages the time circuits", "isCorrect": false }
+      ]
+    }
+  ]
+}
+,
+    {
+  "id": 3,
+  "img": "https://1.bp.blogspot.com/-hqNN5saTPUQ/WpQuXqvUbgI/AAAAAAAAABg/oqCgVb7O_Bgu1tWiBoGx35S22RGmbY_5wCLcBGAs/s1600/Regreso_Al_Futuro_III_%2528Back_To_The_Future_III.jpg",
+  "name": "Back to the Future III",
+  "questions": [
+    {
+      "id": 1,
+      "text": "What year is Doc stranded in?",
+      "options": [
+        { "id": 1, "label": "A", "text": "1785", "isCorrect": false },
+        { "id": 2, "label": "B", "text": "1885", "isCorrect": true },
+        { "id": 3, "label": "C", "text": "1905", "isCorrect": false },
+        { "id": 4, "label": "D", "text": "1865", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "What is Doc Brown’s alias in 1885?",
+      "options": [
+        { "id": 1, "label": "A", "text": "Dr. Emmett Smith", "isCorrect": false },
+        { "id": 2, "label": "B", "text": "Dr. Von Braun", "isCorrect": false },
+        { "id": 3, "label": "C", "text": "Blacksmith", "isCorrect": true },
+        { "id": 4, "label": "D", "text": "Sheriff Brown", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "What causes the DeLorean’s fuel line to break?",
+      "options": [
+        { "id": 1, "label": "A", "text": "An arrow", "isCorrect": true },
+        { "id": 2, "label": "B", "text": "A gunshot", "isCorrect": false },
+        { "id": 3, "label": "C", "text": "A rock", "isCorrect": false },
+        { "id": 4, "label": "D", "text": "It overheats", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Who is the villain in Part III?",
+      "options": [
+        { "id": 1, "label": "A", "text": "Mad Dog Tannen", "isCorrect": true },
+        { "id": 2, "label": "B", "text": "Biff Tannen", "isCorrect": false },
+        { "id": 3, "label": "C", "text": "Buford Biff", "isCorrect": false },
+        { "id": 4, "label": "D", "text": "Tanner Hill", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "What does Doc build to power the DeLorean?",
+      "options": [
+        { "id": 1, "label": "A", "text": "A steam-powered reactor", "isCorrect": false },
+        { "id": 2, "label": "B", "text": "A windmill generator", "isCorrect": false },
+        { "id": 3, "label": "C", "text": "A time tunnel", "isCorrect": false },
+        { "id": 4, "label": "D", "text": "A locomotive push", "isCorrect": true }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Who does Doc fall in love with?",
+      "options": [
+        { "id": 1, "label": "A", "text": "Mary", "isCorrect": false },
+        { "id": 2, "label": "B", "text": "Jennifer", "isCorrect": false },
+        { "id": 3, "label": "C", "text": "Clara Clayton", "isCorrect": true },
+        { "id": 4, "label": "D", "text": "Miss Strickland", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "What role does Marty take in 1885?",
+      "options": [
+        { "id": 1, "label": "A", "text": "Farmer", "isCorrect": false },
+        { "id": 2, "label": "B", "text": "Smithy", "isCorrect": false },
+        { "id": 3, "label": "C", "text": "Seamus McFly's cousin", "isCorrect": false },
+        { "id": 4, "label": "D", "text": "Clint Eastwood", "isCorrect": true }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "How does the DeLorean get destroyed?",
+      "options": [
+        { "id": 1, "label": "A", "text": "Explosion", "isCorrect": false },
+        { "id": 2, "label": "B", "text": "Train crash", "isCorrect": true },
+        { "id": 3, "label": "C", "text": "Lightning", "isCorrect": false },
+        { "id": 4, "label": "D", "text": "It melts", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "What advice does Doc give Marty about the future?",
+      "options": [
+        { "id": 1, "label": "A", "text": "Your future is whatever you make it", "isCorrect": true },
+        { "id": 2, "label": "B", "text": "Don’t time travel", "isCorrect": false },
+        { "id": 3, "label": "C", "text": "Stay in the past", "isCorrect": false },
+        { "id": 4, "label": "D", "text": "Don’t trust Biff", "isCorrect": false }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "What vehicle does Doc use at the end?",
+      "options": [
+        { "id": 1, "label": "A", "text": "Steam engine/time machine", "isCorrect": true },
+        { "id": 2, "label": "B", "text": "Horse carriage", "isCorrect": false },
+        { "id": 3, "label": "C", "text": "DeLorean again", "isCorrect": false },
+        { "id": 4, "label": "D", "text": "Hover car", "isCorrect": false }
+      ]
+    }
+  ]
+}
 ]
