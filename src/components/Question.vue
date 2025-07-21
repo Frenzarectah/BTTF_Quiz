@@ -43,7 +43,7 @@ h4{
     font-size: 30px;
 }
 .bar{
-    width:300px;
+    width:400px;
     height: 50px;
     border: 3px solid #fc9f5b;
     border-radius: 5px;
@@ -67,13 +67,8 @@ h4{
     align-items: center;
     margin-bottom:10px;
     cursor: pointer;
-    width:100%;
+    width:80%;
     height:90px;
-    transition: width 0.2s ease-out, height 0.2s ease-out;
-}
-.option:hover{
-  width:110%;
-  height:110px;
 }
 .options-container{
     font-family: "Lilita One", sans-serif;
@@ -82,6 +77,7 @@ h4{
 }
 .option-label{
     background-color:  #fc9f5b;
+    border: 1px solid #fc9f5b;
     width:60px;
     height:60px;
     font-size: 30px;
@@ -91,6 +87,7 @@ h4{
 }
 .option-value{
     background-color: rgb(244,239,239);
+    border:1px solid black;
     width:100%;
     height: 60px;
     font-size: 30px;
