@@ -26,6 +26,9 @@ const { correct,total } = defineProps(['correct','total']);
 </template>
 
 <style scoped>
+* {
+  box-sizing: border-box;
+}
 div{
     display:flex;
     flex-direction: column;
