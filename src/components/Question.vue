@@ -98,4 +98,26 @@ h4{
     display: flex;
     align-items: center;
 }
+@media screen and (max-height: 900px) {
+  h4 {
+    font-size: 22px;
+  }
+  .bar {
+    height: 40px;
+  }
+  .question {
+    font-size: 28px;
+  }
+  .option-label {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .option-value {
+    font-size: 20px;
+    height: 50px;
+    padding: 5px 10px;
+  }
+}
 </style>
