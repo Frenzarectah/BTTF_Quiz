@@ -112,7 +112,6 @@ h4{
     width: 50px;
     height: 50px;
     font-size: 20px;
-    margin-bottom: 5px;
   }
   .option-value {
     font-size: 20px;
