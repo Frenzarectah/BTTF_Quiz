@@ -33,6 +33,9 @@ const emitSelectedOption = (isCorrect) =>{
   </div>
 </template>
 <style scoped>
+* {
+  box-sizing: border-box;
+}
 header{
     margin-top: 20px;
     font-family: "Lilita One", sans-serif;
@@ -43,7 +46,7 @@ h4{
     font-size: 30px;
 }
 .bar{
-    width:400px;
+    width:350px;
     height: 50px;
     border: 3px solid #fc9f5b;
     border-radius: 5px;
@@ -77,7 +80,7 @@ h4{
 }
 .option-label{
     background-color:  #fc9f5b;
-    border: 1px solid #fc9f5b;
+    border:1px solid #fc9f5b;
     width:60px;
     height:60px;
     font-size: 30px;

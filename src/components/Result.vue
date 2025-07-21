@@ -14,7 +14,7 @@ const { correct,total } = defineProps(['correct','total']);
               <h3>MARTY MCFLY</h3>
               <p> Congrats! You made it well, from 6 to 9 correct answers! Your knowledge of BTTF is very good but not the best, make it perfect by watching the trilogy once or twice, It'll be better!</p>
         </div>
-        <div v-els="correct == 10">
+        <div v-else="correct == 10">
             <img width="200px" height="200px" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.images.express.co.uk%2Fimg%2Fdynamic%2F36%2F590x%2Fsecondary%2Fdoc-brown-2015-2300497.jpg%3Fr%3D1581067400804&f=1&nofb=1&ipt=ad0d27a4338347a865ad2f8c97918e8d191ac98584bcae3d99ef01af897e28fe" />
                <h3>DOC BROWN</h3>
                <p>GREAT SCOTT! You're awesome! Seems like you wrote the three films by yourself! 10/10! You are the BTTF Genius, just like DOC!</p>
