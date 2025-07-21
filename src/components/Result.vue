@@ -49,4 +49,10 @@ p{
 h1{
     font-size:80px;
 }
+@media screen and (max-height: 900px) {
+    p{
+    font-size:25px;
+    width:90%;
+}
+}
 </style>
