@@ -7,17 +7,17 @@ const { correct,total } = defineProps(['correct','total']);
         <div v-if="correct <= 5">
             <img alt="biff" width="200px" height="200px" src="/src/assets/biff.jpg">     
              <h3>BIFF</h3>
-             <p> Your knowledge about BTTF is poor and confused, just like Biff and his pal, so stop to be arrogant and go see the films again and again!</p>
+             <p> Your knowledge of BTTF is poor and confused... just like Biff and his gang! So quit being cocky and go rewatch the trilogy... again and again!</p>
         </div>
         <div v-else-if="correct >= 9 && correct < 10">
             <img alt="marty "width="200px" height="200px" src="/src/assets/marty.jpg"/>
               <h3>MARTY MCFLY</h3>
-              <p> Congrats! You made it well, from 6 to 9 correct answers! Your knowledge of BTTF is very good but not the best, make it perfect by watching the trilogy once or twice, It'll be better!</p>
+              <p> You did well, 6 to 9 correct answers! Your knowledge of BTTF is really good, but not perfect just yet. Watch the trilogy once or twice more and you’ll be a true time-travel expert!</p>
         </div>
         <div v-else="correct == 10">
             <img width="200px" height="200px" src="/src/assets/doc.jpg">
                <h3>DOC BROWN</h3>
-               <p>GREAT SCOTT! You're awesome! Seems like you wrote the three films by yourself! 10/10! You are a BTTF Genius, just like DOC!</p>
+               <p>GREAT SCOTT! You're awesome! Seems like you wrote the three films yourself! 10/10! You are a BTTF Genius, just like Doc!</p>
         </div>    
           <h1>
             {{ correct }}/{{ total }}
