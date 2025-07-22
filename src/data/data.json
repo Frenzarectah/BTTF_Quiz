@@ -124,7 +124,7 @@
     },
     {
       "id": 2,
-      "text": "What iconic future item does Marty buy?",
+      "text": "What iconic item does Marty takes from the future?",
       "options": [
         { "id": 1, "label": "A", "text": "Time crystal", "isCorrect": false },
         { "id": 2, "label": "B", "text": "Hoverboard", "isCorrect": true },
@@ -314,7 +314,7 @@
       "id": 10,
       "text": "What vehicle does Doc use at the end?",
       "options": [
-        { "id": 1, "label": "A", "text": "Steam engine/time machine", "isCorrect": true },
+        { "id": 1, "label": "A", "text": "Steam engine train", "isCorrect": true },
         { "id": 2, "label": "B", "text": "Horse carriage", "isCorrect": false },
         { "id": 3, "label": "C", "text": "DeLorean again", "isCorrect": false },
         { "id": 4, "label": "D", "text": "Hover car", "isCorrect": false }
