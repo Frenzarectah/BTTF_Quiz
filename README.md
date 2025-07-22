@@ -1,5 +1,8 @@
-# .
+# BackToTheFuture THE QUIZ 🕣🕥🕤🕠🕓🕕🕔⚡⚡
 
+A easy and clean quiz game created to take confidence wit new Vue3 composition API and features!<br/>
+I also used #vue_routing, emits and props in order to create a good product, also optimized for mobile experience.<br/>
+Come and play! :)<br/>
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
