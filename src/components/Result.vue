@@ -1,5 +1,7 @@
 <script setup>
 const { correct,total } = defineProps(['correct','total']);
+import { useRouter } from 'vue-router';
+const router = useRouter();
 </script>
 <template>
     <div class="results">
@@ -10,7 +12,7 @@ const { correct,total } = defineProps(['correct','total']);
              <p> Your knowledge of BTTF is poor and confused... just like Biff and his gang! So quit being cocky and go rewatch the trilogy... again and again!</p>
         </div>
         <div v-else-if="correct >= 9 && correct < 10">
-            <img alt="marty "width="200px" height="200px" src="/src/assets/marty.jpg"/>
+            <img alt="marty" width="200px" height="200px" src="/src/assets/marty.jpg"/>
               <h3>MARTY MCFLY</h3>
               <p> You did well, 6 to 9 correct answers! Your knowledge of BTTF is really good, but not perfect just yet. Watch the trilogy once or twice more and you’ll be a true time-travel expert!</p>
         </div>
@@ -22,6 +24,7 @@ const { correct,total } = defineProps(['correct','total']);
           <h1>
             {{ correct }}/{{ total }}
         </h1>
+        <button @click="router.push('/')">Go back!</button>
     </div>
 </template>
 
