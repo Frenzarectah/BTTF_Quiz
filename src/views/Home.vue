@@ -2,6 +2,7 @@
 import questions from '../data/data.json';
 import Card from '../components/Card.vue';
 import { ref,watch } from "vue"
+import gsap from 'gsap';
 
 const quizzes = ref(questions);
 const search = ref("")
@@ -9,6 +10,20 @@ const search = ref("")
 watch(search, () =>{
  quizzes.value = questions.filter(quiz => quiz.name.toLowerCase().includes(search.value.toLowerCase()))
 })
+
+const before = (el) =>{
+  el.style.opacity = 0;
+  el.style.transform = "translateX(-20px)";
+}
+const enter = (el) =>{
+  gsap.to( el, {
+    x: 0,
+    opacity: 1,
+    duration: 0.5,
+    delay: el.dataset.idx * 0.3
+  })
+}
+
 </script>
 
 <template>
@@ -19,7 +34,9 @@ watch(search, () =>{
         <input  v-model.trim="search" type="text" placeholder="Search...">
       </header>
       <div class="options-container">
-        <Card v-for="quiz in quizzes" :key="quiz.id" :quiz="quiz"/>
+        <TransitionGroup name="appear" appear @before-enter="before" @enter="enter">
+          <Card v-for="(quiz,idx) in quizzes" :key="quiz.id" :quiz="quiz" :data-idx="idx"/>
+        </TransitionGroup>
       </div>
     </div>
   </body>
